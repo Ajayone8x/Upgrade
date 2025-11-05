@@ -88,14 +88,7 @@
 <body>
 
 <!-- Telegram Popup -->
-<div id="telegramPopup">
-  <div class="popup-box">
-    <h2>Support Us!</h2>
-    <p>Join our Telegram channel <b>@sambhai</b> for instant updates, highlights, and exclusive links.</p>
-    <button class="join-btn" onclick="window.open('https://t.me/BigBoss19Episodes','_blank')">Join Now</button>
-    <button class="joined-btn" onclick="closePopup()">Already Joined</button>
-  </div>
-</div>
+
 
 <!-- Video Container -->
 <div class="shaka-video-container" data-shaka-player>
@@ -103,9 +96,7 @@
 </div>
 
 <script>
-  function closePopup() {
-    document.getElementById('telegramPopup').style.display = 'none';
-  }
+
 
   document.addEventListener('DOMContentLoaded', async () => {
     shaka.polyfill.installAll();
